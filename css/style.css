@@ -31,37 +31,79 @@
 
 /* ===== container ===== */
 [class*="__container"] {
-	max-width: 1130px;
+	max-width: 1160px;
 	margin: 0 auto;
+	padding: 0px 15px; /* * Отступы безопасности, что бы контент не прилипал к краям экрана */
 }
 /* =====  end container ===== */
 
 /* ===== body ===== */
 body {
-	font-family: 'Larsseit', sans-serif;
+	font-family: "Larsseit", sans-serif;
 	font-size: 24px;
+	color: #22356f;
 }
 /* ===== end body ===== */
 
 /* ===== header ===== */
 .header {
+	/* * Фиксация шапки абсолютно */
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+.header__container {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 93px;
+	align-items: center;
+	justify-content: space-between;
 }
 .header__logo {
+	font-weight: 700;
+	line-height: 1.125;
+	letter-spacing: -0.035em;
+	color: #62d0df;
+	margin: 0px 5px 0px 0px; /* * Отступы безопасности, что бы логотип не прилипал к меню */
 }
 .header__menu {
+	margin: 0px 5px 0px 0px; /* * Отступы безопасности, что бы меню не прилипало к кнопке */
 }
 .menu {
 }
 .menu__list {
+	display: flex;
+	flex-wrap: wrap;
 }
 .menu__item {
 }
+.menu__item:not(:last-child) {
+	margin: 0px 27px 0px 0px;
+}
 .menu__link {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.142;
+	color: #22356f;
 }
 .header__botton {
+	background: #62d0df;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	align-items: center;
+	min-height: 50px;
+	padding: 5px 30px;
 }
 .botton {
 }
 .botton__link {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.142;	
+	color: #ffffff;
+	text-transform: uppercase;
 }
 /* ===== end header ===== */
