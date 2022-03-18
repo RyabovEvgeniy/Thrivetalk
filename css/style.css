@@ -36,7 +36,32 @@
 }
 /* =====  end container ===== */
 
+/* ===== body ===== */
 body {
 	font-family: 'Larsseit', sans-serif;
 	font-size: 24px;
 }
+/* ===== end body ===== */
+
+/* ===== header ===== */
+.header {
+}
+.header__logo {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__botton {
+}
+.botton {
+}
+.botton__link {
+}
+/* ===== end header ===== */
