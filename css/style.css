@@ -68,6 +68,9 @@ body {
 	color: #62d0df;
 	margin: 0px 5px 0px 0px; /* * Отступы безопасности, что бы логотип не прилипал к меню */
 }
+.header__logo:hover {
+	text-decoration: underline;
+}
 .header__menu {
 	margin: 0px 5px 0px 0px; /* * Отступы безопасности, что бы меню не прилипало к кнопке */
 }
@@ -78,6 +81,9 @@ body {
 	flex-wrap: wrap;
 }
 .menu__item {
+}
+.menu__item:hover {
+	text-decoration: underline;
 }
 .menu__item:not(:last-child) {
 	margin: 0px 27px 0px 0px;
@@ -97,6 +103,9 @@ body {
 	min-height: 50px;
 	padding: 5px 30px;
 }
+.header__botton:hover {
+	cursor: pointer;
+}
 .botton {
 }
 .botton__link {
@@ -105,5 +114,8 @@ body {
 	line-height: 1.142;	
 	color: #ffffff;
 	text-transform: uppercase;
+}
+.botton__link:hover {
+	text-decoration: underline;
 }
 /* ===== end header ===== */
