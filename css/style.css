@@ -26,6 +26,8 @@
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 /* ===== end wrapper ===== */
 
@@ -44,6 +46,12 @@ body {
 	color: #22356f;
 }
 /* ===== end body ===== */
+
+/* ===== main ===== */
+.main {
+	flex: 1 1 auto;
+}
+/* ===== end main ===== */
 
 /* ===== header ===== */
 .header {
@@ -79,7 +87,6 @@ body {
 .menu__list {
 	display: flex;
 	flex-wrap: wrap;
-
 }
 .menu__item {
 }
@@ -113,7 +120,7 @@ body {
 .botton__link {
 	font-size: 14px;
 	font-weight: 700;
-	line-height: 1.142;	
+	line-height: 1.142;
 	color: #ffffff;
 	padding: 20px 30px;
 	text-transform: uppercase;
@@ -150,7 +157,7 @@ body {
 		margin: 0px 15px 0px 0px;
 	}
 	.header__botton {
-		min-height: 30px;		
+		min-height: 30px;
 	}
 	.botton__link {
 		padding: 5px 10px;
@@ -168,9 +175,65 @@ body {
 	}
 	.menu__list {
 		flex-wrap: wrap;
-	}	
+	}
 	.menu__item {
 		flex: 0 1 50%;
 	}
-	}	
+}
 /* ===== end header ===== */
+
+/* ===== thrivetalk ===== */
+.thrivetalk {
+	background: url("../img/thrivetalk_img.png") top right no-repeat;
+	background-color: #f4f9e2;
+}
+.thrivetalk__row {
+}
+.thrivetalk__content {
+	padding: 240px 0px 79px 0px;
+}
+.content-thrivetalk {
+}
+.content-thrivetalk__subtitle {
+	font-weight: 700;
+	line-height: 1.125;
+	letter-spacing: -0.035em;
+	color: #62d0df;
+	margin: 0px 0px 40px 0px;
+}
+.content-thrivetalk__title {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.104;
+	letter-spacing: -0.035em;
+	color: #22356f;
+	margin: 0px 0px 78px 0px;
+	max-width: 484px;
+}
+.content-thrivetalk__text {
+	line-height: 1.75;
+	color: #22356f;
+	margin: 0px 0px 63px 0px;
+	max-width: 469px;
+}
+.content-thrivetalk__buttons {
+}
+.button {
+	padding: 10px 30px;
+	font-size: 16px;
+	line-height: 1.43;
+	letter-spacing: 0.1em;	
+}
+.button:hover {
+	text-decoration: underline;
+}
+.button_orange {
+	background-color: #f9b640;
+	color: #ffffff;
+}
+.button_outline {
+	color: #FAB63E;
+}
+.thrivetalk__image {
+}
+/* ===== end thrivetalk ===== */
