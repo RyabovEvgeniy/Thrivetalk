@@ -222,7 +222,7 @@ body {
 	padding: 10px 30px;
 	font-size: 16px;
 	line-height: 1.43;
-	letter-spacing: 0.1em;	
+	letter-spacing: 0.1em;
 }
 .button:hover {
 	text-decoration: underline;
@@ -232,12 +232,34 @@ body {
 	color: #ffffff;
 }
 .button_outline {
-	color: #FAB63E;
+	color: #fab63e;
 }
 .thrivetalk__image {
 }
 /* ===== end thrivetalk ===== */
 
 /* ===== thrive ===== */
-
+.thrive {
+	background: url("../img/thrive_img.jpg") top right / auto 100% no-repeat;
+	background-color: #62d0df;
+}
+.thrive__row {
+}
+.thrive__content {
+	padding: 151px 0px 95px 0px;
+}
+.content-thrive {
+	color: #ffffff;
+}
+.content-thrive__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 0.75;
+	letter-spacing: -0.006em;
+	margin: 0px 0px 75px 0px;
+}
+.content-thrive__text {
+	line-height: 1.45;
+	max-width: 555px;
+}
 /* ===== end thrive ===== */
