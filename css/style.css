@@ -263,3 +263,33 @@ body {
 	max-width: 555px;
 }
 /* ===== end thrive ===== */
+
+/* ===== about ===== */
+.about {
+}
+.about__container {
+	max-width: 1260px;
+}
+.about__row {
+}
+.about__content {
+	padding: 150px 0px 0px 0px;
+
+}
+.content-about {
+	display: flex;
+	color: #22356f;
+}
+.content-about__title {
+	font-size: 16px;
+	line-height: 1.43;
+	letter-spacing: 0.06em;
+	margin: 0px 225px 0px 0px;
+}
+.content-about__text {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.005em;
+	max-width: 592px;
+}
+/* ===== end about ===== */
