@@ -313,7 +313,7 @@ body {
 }
 .wecan__item {
 	background: url('../img/wecan__item_bg.png') 54px 125px no-repeat;
-	min-width: 360px;
+	/* min-width: 360px; */
 	padding: 95px 0px 211px 78px;
 	flex: 1 1 25%;
 	font-size: 32px;
@@ -343,3 +343,56 @@ body {
 	background-color: #0052c1;
 }
 /* ===== end wecan ===== */
+
+/* ===== health ===== */
+.health {
+}
+.health__row {
+}
+.health__cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+.health__item {
+	background: url('../img/wecan__item_bg.png') 54px 125px no-repeat;
+	/* min-width: 480px; */
+	padding: 95px 0px 211px 78px;
+	flex: 1 1 33.333%;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.06;
+	letter-spacing: -0.006em;
+	color: #ffffff;
+	transition: 1s;
+}
+.health__item::before {
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: #fff;
+	width: 255px;
+	margin: 0px 0px 23px -26px;
+}
+.health__item:hover {
+	background: url('../img/health__bg_hover.png') 0 0 / 100% 100% no-repeat;
+	/* transition: all 0.5s ease 0.5s ; */
+}
+.health__item_1 {
+	background-color: #22356F;
+}
+.health__item_2 {
+	background-color: #0052C1;
+}
+.health__item_3 {
+	background-color: #76B58B;
+}
+.health__item_4 {
+	background-color: #62D0DF;
+}
+.health__item_5 {
+	background-color: #DEE1FF;
+}
+.health__item_6 {
+	background-color: #8F00FF;
+}
+/* ===== end health ===== */
