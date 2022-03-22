@@ -355,7 +355,6 @@ body {
 }
 .health__item {
 	background: url('../img/wecan__item_bg.png') 54px 125px no-repeat;
-	/* min-width: 480px; */
 	padding: 95px 0px 211px 78px;
 	flex: 1 1 33.333%;
 	font-size: 32px;
@@ -375,7 +374,7 @@ body {
 }
 .health__item:hover {
 	background: url('../img/health__bg_hover.png') 0 0 / 100% 100% no-repeat;
-	/* transition: all 0.5s ease 0.5s ; */
+	transition: all 0.3s ease 0s ;
 }
 .health__item_1 {
 	background-color: #22356F;
