@@ -424,3 +424,42 @@ body {
 	color: rgba(34, 53, 111, 0.5);
 }
 /* ===== end services ===== */
+
+/* ===== should ===== */
+.should {
+	background: url("../img/should_img.jpg") top left / auto 100% no-repeat;
+}
+.should__row {
+}
+.should__content {
+	padding: 103px 175px 42px 589px;
+}
+.content-should {
+	color: #22356f;
+}
+.content-should__title {
+	font-size: 16px;
+	line-height: 0.75;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin: 0px 0px 225px 0px;
+}
+.content-should__text {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.48;
+	letter-spacing: -0.01em;
+	min-width: 676px;
+	margin: 0px 0px 152px 0px;
+}
+.content-should__text_color {
+	color: #62d0df;
+}
+.content-should__link {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.44;
+	letter-spacing: 0.1em;
+	color: #fab63e;
+}
+/* ===== end should ===== */
