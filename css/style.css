@@ -312,7 +312,7 @@ body {
 	flex-wrap: wrap;
 }
 .wecan__item {
-	background: url('../img/wecan__item_bg.png') 54px 125px no-repeat;
+	background: url("../img/wecan__item_bg.png") 54px 125px no-repeat;
 	/* min-width: 360px; */
 	padding: 95px 0px 211px 78px;
 	flex: 1 1 25%;
@@ -354,7 +354,7 @@ body {
 	flex-wrap: wrap;
 }
 .health__item {
-	background: url('../img/wecan__item_bg.png') 54px 125px no-repeat;
+	background: url("../img/wecan__item_bg.png") 54px 125px no-repeat;
 	padding: 95px 0px 211px 78px;
 	flex: 1 1 33.333%;
 	font-size: 32px;
@@ -373,29 +373,54 @@ body {
 	margin: 0px 0px 23px -26px;
 }
 .health__item:hover {
-	background: url('../img/health__bg_hover.png') 0 0 / 100% 100% no-repeat;
-	transition: all 0.3s ease 0s ;
+	background: url("../img/health__bg_hover.png") 0 0 / 100% 100% no-repeat;
+	transition: all 0.3s ease 0s;
 }
 .health__item_1 {
-	background-color: #22356F;
+	background-color: #22356f;
 }
 .health__item_2 {
-	background-color: #0052C1;
+	background-color: #0052c1;
 }
 .health__item_3 {
-	background-color: #76B58B;
+	background-color: #76b58b;
 }
 .health__item_4 {
-	background-color: #62D0DF;
+	background-color: #62d0df;
 }
 .health__item_5 {
-	background-color: #DEE1FF;
+	background-color: #dee1ff;
 }
 .health__item_6 {
-	background-color: #8F00FF;
+	background-color: #8f00ff;
 }
 /* ===== end health ===== */
 
 /* ===== services ===== */
-
+.services {
+	padding: 22px 0px 40px 0px;
+}
+.services__row {
+}
+.services__cadrs {
+	display: flex;
+	flex-wrap: wrap;
+}
+.services__item {
+	padding: 55px 77px 37px 105px;
+	flex: 1 1 33.33%;
+}
+.item-services__title {
+	font-size: 28px;
+	line-height: 1.18;
+	letter-spacing: -0.03em;
+	color: #22356f;
+	margin: 0px 0px 28px 0px;
+}
+.item-services__text {
+	font-size: 16px;
+	line-height: 1.57;
+	letter-spacing: -0.03em;
+	color: rgba(34, 53, 111, 0.5);
+}
 /* ===== end services ===== */
