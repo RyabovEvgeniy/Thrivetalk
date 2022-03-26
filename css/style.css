@@ -540,7 +540,7 @@ body {
 	color: #22356f;
 	margin: 0px 0px 20px 0px;
 }
-.item-contacts__text {	
+.item-contacts__text {
 	line-height: 1.65;
 	letter-spacing: -0.006em;
 	color: rgba(34, 53, 111, 0.5);
@@ -559,7 +559,7 @@ body {
 	text-decoration: underline;
 }
 .item-contacts__email {
-	color: #006DFF;
+	color: #006dff;
 	line-height: 1.65;
 	letter-spacing: -0.006em;
 }
@@ -567,3 +567,17 @@ body {
 	text-decoration: underline;
 }
 /* ===== end contacts ===== */
+
+/* ===== footer ===== */
+.footer {
+	background-color: #62d0df;
+}
+.footer__text {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 0.79;
+	letter-spacing: -0.006em;
+	color: #ffffff;
+	padding: 32px 0px 26px 0px;
+}
+/* ===== end footer ===== */
