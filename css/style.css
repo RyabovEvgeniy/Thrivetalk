@@ -462,4 +462,51 @@ body {
 	letter-spacing: 0.1em;
 	color: #fab63e;
 }
+.content-should__link:hover {
+	text-decoration: underline;
+}
 /* ===== end should ===== */
+
+/* ===== contact-us ===== */
+.contact-us {
+	background: url("../img/contact-us_img.jpg") top right / auto 100% no-repeat;
+	background-color: #22356f;
+}
+.contact-us__row {
+}
+.contact-us__content {
+	padding: 103px 0px 42px 0px;
+	/* margin: 0px 0px 0px 108px; */
+}
+.content-contact-us {
+	color: #ffffff;
+}
+.content-contact-us__subtitle {
+	font-size: 16px;
+	line-height: 0.75;
+	letter-spacing: 0.06em;
+	margin: 0px 0px 203px 0px;
+}
+.content-contact-us__title {
+	font-size: 64px;
+	line-height: 1.47;
+	letter-spacing: -0.01em;
+	margin: 0px 0px 75px 0px;
+}
+.content-contact-us__text {
+	font-size: 36px;
+	line-height: 1.48;
+	letter-spacing: -0.005em;
+	margin: 0px 0px 68px 0px;
+	max-width: 597px;
+}
+.content-contact-us__link {
+	font-size: 16px;
+	line-height: 1.44;
+	letter-spacing: 0.1em;
+	color: #62d0df;
+}
+.content-contact-us__link:hover {
+	text-decoration: underline;
+}
+/* ===== end contact-us ===== */
