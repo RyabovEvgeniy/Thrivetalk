@@ -110,7 +110,6 @@ body {
 	align-items: center;
 	min-height: 50px;
 }
-
 .header__botton:hover {
 	cursor: pointer;
 }
@@ -572,6 +571,8 @@ body {
 .footer {
 	background-color: #62d0df;
 }
+.footer__row {
+}
 .footer__text {
 	font-size: 14px;
 	font-weight: 700;
@@ -579,5 +580,14 @@ body {
 	letter-spacing: -0.006em;
 	color: #ffffff;
 	padding: 32px 0px 26px 0px;
+}
+.footer__text::before {
+	content: "";
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	background: url('../img/footer.svg') 0 0 no-repeat;
+	color: #fff;
+	margin: 0px 6px 0px 0px;
 }
 /* ===== end footer ===== */
